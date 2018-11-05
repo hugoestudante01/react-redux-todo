@@ -7,10 +7,9 @@ const Link = ({ active, children, onClick }) => {
   }
 
   return (
-    // eslint-disable-next-line
     <a href="#"
        onClick={e => {
-         e.preventDefault()
+            e.preventDefault()
          onClick()
        }}
     >
