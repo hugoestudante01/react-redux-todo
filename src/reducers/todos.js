@@ -2,8 +2,8 @@ import { uniqueId } from "lodash";
 
 const todos = (
   state = [
-    { id: uniqueId(), text: "rolando", completed: false },
-    { id: uniqueId(), text: "pedro", completed: false }
+    { id: uniqueId(), text: "Comida", completed: false },
+    { id: uniqueId(), text: "Cerveza", completed: false }
   ],
   action
 ) => {
